@@ -15,7 +15,7 @@ provider "aws" {
 
 module "docker_instance" {
     source = "aozkan1977/docker-instance/aws"
-    key_name = "clarusway"
+    key_name = "insertyourpemkeyhere"
 }
 ```
 ---
